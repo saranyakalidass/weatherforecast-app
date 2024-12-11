@@ -1,0 +1,78 @@
+body{
+      
+    background-image: url(https://images.unsplash.com/photo-1596627008830-41d373a44a96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size:cover ;
+  }
+    #container{
+         display: flex;
+         justify-content:space-evenly;
+         width: 80%;
+         height: 450px;
+         margin-top: 30px;
+         margin-left: 300px;
+         text-align: center;
+         margin-bottom: 130px;
+        
+    }
+#container1{
+width:90%;
+display:grid;
+grid-template-columns: repeat(7,1fr);
+margin: auto;
+grid-gap:25px;
+
+}
+#container1>div{
+border-radius: 25px;
+width: 90%;
+background-color: teal;
+display:flex;
+flex-direction:column;
+align-items:center;
+/* border: 1px solid red; */
+
+}
+#container1 >div>h2{
+
+color: brown;
+
+}
+#container1 >div>h3{ 
+margin-top: -5px;
+color: rgb(126, 13, 13);
+
+}
+    input{
+      width: 65%;
+      height: 35px;
+      text-align: center;
+      margin-left: 250px;
+  }
+  button{
+      height: 35px;
+      width: 5%;
+  }
+  #details{
+    width:500;
+    height:350;
+    margin-right: 100px;
+    margin-left: -300px;
+  }
+  
+  #small{
+    display: flex;
+    justify-content: space-between;
+  }
+  #small>img{
+
+    width: 55px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+  }
+  h1{
+    margin: auto;
+    text-align: center;
+    color: brown;
+  }
